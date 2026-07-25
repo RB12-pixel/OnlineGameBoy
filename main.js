@@ -61,3 +61,13 @@ function runEmulation() {
 
     requestAnimationFrame(runEmulation);
 }
+
+// Gestione dei click sui pulsanti dello schermo
+document.getElementById('btn-up')?.addEventListener('click', () => { console.log("Premuto: SU"); });
+document.getElementById('btn-down')?.addEventListener('click', () => { console.log("Premuto: GIÙ"); });
+document.getElementById('btn-left')?.addEventListener('click', () => { console.log("Premuto: SINISTRA"); });
+document.getElementById('btn-right')?.addEventListener('click', () => { console.log("Premuto: DESTRA"); });
+document.getElementById('btn-a')?.addEventListener('click', () => { console.log("Premuto: A"); });
+document.getElementById('btn-b')?.addEventListener('click', () => { console.log("Premuto: B"); });
+document.getElementById('btn-start')?.addEventListener('click', () => { console.log("Premuto: START"); });
+document.getElementById('btn-select')?.addEventListener('click', () => { console.log("Premuto: SELECT"); });
